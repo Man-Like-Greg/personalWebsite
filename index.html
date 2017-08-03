@@ -9,7 +9,15 @@
 <body>
 	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
-	    <!-- Collect the nav links, forms, and other content for toggling -->
+	  	<div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Brand</a>
+	    </div>
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
 	        <li class="active"><a href="#">Day 1 Lesson<span class="sr-only">(current)</span></a></li>
@@ -21,57 +29,63 @@
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">   
 	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
+	    </div>
+	  </div>
 	</nav>
 	<div class="container-fluid">
 	  <div class="row">
 	  	<div class="col-md-12">
-	  		<img src="images/avatar.jpg" class="img-responsive" alt="Responsive image">
-	  		<h1>WEBSITE STAND UP<small>Sponsered by Paco and Puma</small></h1>
+	  		<div class="well">	  		
+	  			<img src="images/avatar.jpg" class="img-responsive" alt="Responsive image">
+	  			<h1>WEBSITE STAND UP<small>Sponsered by Paco and Puma</small></h1>
+	  		</div>
 	  	</div>
 	  </div>
 	</div>
-	<div class="row">
-		<div class="col-xs-6 col-md-4">
-			<h3>Day 1 lession</h3>
-			<p>Started the day getting to gel with the team and members within the Sparta. </p>
-			<p>Getting to grip with BASH commands and HTML</p>
-		</div>
-	  	<div class="col-xs-12 col-md-8">
-	  		<div class="row">
-	  			<div class="col-xs-12 col-md-12">
-		  			<h3>Day 1 homework</h3>
-		  			<p>Discription on homework</p>
-		  			<p><a href="Websites.html">My own Youtube Website</a></p>
-		  			<h4>Satisfaction Rating:</h4>
-	  					<label class="radio-inline">
-							<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
-						</label>
-						<label class="radio-inline">
-						  	<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
-						</label>
-						<label class="radio-inline">
-						  	<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
-						</label>
-						<label class="radio-inline">
-						  	<input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> 4
-						</label>
-						<label class="radio-inline">
-						  	<input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5"> 5
-						</label>
-				</div>
-				<div class="col-xs-12 col-md-4">
-			  		<iframe  src="https://www.youtube.com/embed/DwOmMU0GIEE" frameborder="0" allowfullscreen>
-					</iframe>
-				</div>
-				<div class="col-xs-12 col-md-4">
-			  		<iframe  src="https://www.youtube.com/embed/-6P7bexeJn4" frameborder="0" allowfullscreen>
-					</iframe>
-				</div>
-				<div class="col-xs-12 col-md-4">
-			  		<iframe  src="https://www.youtube.com/embed/7AFUch5JZaQ" frameborder="0" allowfullscreen></iframe>
-			  	</div>
+	<div class="jumbotron">
+  		<div class="container">
+			<div class="col-xs-6 col-md-4">
+				<h3>Day 1 lession</h3>
+				<p>Started the day getting to gel with the team and members within the Sparta. </p>
+				<p>Getting to grip with BASH commands and HTML</p>
+			</div>
+		  	<div class="col-xs-12 col-md-8">
+		  		<div class="row">
+		  			<div class="col-xs-12 col-md-12">
+			  			<h3>Day 1 homework</h3>
+			  			<p>This is where the task was to create a basic version of Youtube using only HTML. I.e no styling.</p>
+			  			<p>* A homepage which lists all the available videos</p>
+						<p>* At least 3 separate video pages</p>
+			  			<p><a href="Websites.html">My own Youtube Website</a></p>
+			  			<h4>Satisfaction Rating:</h4>
+		  					<label class="radio-inline">
+								<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+							</label>
+							<label class="radio-inline">
+							  	<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+							</label>
+							<label class="radio-inline">
+							  	<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+							</label>
+							<label class="radio-inline">
+							  	<input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> 4
+							</label>
+							<label class="radio-inline">
+							  	<input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5"> 5
+							</label>
+					</div>
+					<div class="col-xs-12 col-md-4">
+				  		<iframe  src="https://www.youtube.com/embed/DwOmMU0GIEE" frameborder="0" allowfullscreen>
+						</iframe>
+					</div>
+					<div class="col-xs-12 col-md-4">
+				  		<iframe  src="https://www.youtube.com/embed/-6P7bexeJn4" frameborder="0" allowfullscreen>
+						</iframe>
+					</div>
+					<div class="col-xs-12 col-md-4">
+				  		<iframe  src="https://www.youtube.com/embed/7AFUch5JZaQ" frameborder="0" allowfullscreen></iframe>
+				  	</div>
+				 </div>
 	  		</div>
 	  	</div>
 	</div>
