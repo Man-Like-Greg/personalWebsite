@@ -3,10 +3,6 @@ div {
 	height: 200px;
 }
 
-.countainer-fluid {
-	background-color: ;
-}
-
 .row {
 	padding-left: 15px;
 }
@@ -31,3 +27,6 @@ h4 {
 	height: ;
 }
 
+.col-xs-12 {
+	height: 400px;
+}
