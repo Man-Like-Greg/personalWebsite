@@ -4,6 +4,7 @@
 #### Content
 
 [1] Getting started with GitHub
+
 [2] Wireframe
 [3] Installing Bootstrap
 [4] Editing HTML with Bootstrap / CSS'ing
