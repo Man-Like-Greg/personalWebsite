@@ -1,13 +1,16 @@
-
 ### Create a Webpage that can be responsive for laptop, tablet and mobile screen view . 
 ---
+
 #### Content
 
 [1] Getting started with GitHub
 
 [2] Wireframe
+
 [3] Installing Bootstrap
+
 [4] Editing HTML with Bootstrap / CSS'ing
+
 [5] Build HTML template
 ___
 
