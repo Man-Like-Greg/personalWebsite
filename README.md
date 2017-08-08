@@ -1,7 +1,7 @@
 **# personalWebsite**
-## Create a Webpage that can be responsive for laptop, tablet and mobile screen view . 
+### Create a Webpage that can be responsive for laptop, tablet and mobile screen view . 
 ---
-### Content
+#### Content
 
 [1]- Getting started with GitHub
 [2]- Wireframe
